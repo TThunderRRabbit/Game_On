@@ -213,6 +213,12 @@ h1 {
     margin: 5px 0;
 }
 
+.gameCard .rating {
+    font-size: 1.rem;
+    color: #aaa;
+    margin: 5px 0;
+}
+
 .gameCard .details {
     display: flex;
     justify-content: space-between;
@@ -244,4 +250,31 @@ h1 {
     .main {
         grid-template-columns: 1fr;
     }
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    padding-bottom: 30px;
+}
+
+.titleLogo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ratingIcon {
+    max-width: 18px; 
+    max-height: 18px;
+    margin-right: 3px; 
+    margin-bottom: 3px;
+
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    font-weight: bold;
+    color: #9cba7f; 
 }

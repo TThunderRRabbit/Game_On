@@ -31,7 +31,10 @@ const displayGames = (games) => {
         `<h3>${game.name}</h3>
         <img src="${game.background_image}" alt="${game.name}" />
         <div class="details">
-        <p class="rating">rating :${game.rating}</p>
+        <div class="rating">
+        <img src="star.png" class="ratingIcon"> 
+        <span>${game.rating}</span>
+        </div>
         <p class="release-date">Date released: ${game.released}</p></div>
         `;
         
